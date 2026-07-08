@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.flex-container,
+.flex-item-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  gap: 30px;
+  letter-spacing: 2px;
+}
+.flex-container{
+  width: 100%;
+  padding: 18px 50px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+.flex-item-2{
+  cursor: pointer;
+}
+/* .flex-item-2 p:hover {
+  color: gray;
+} */
+.hero-container {
+  position: relative;
+  margin-top: 70px;
+}
+.hero-container > img {
+  width: 100%;
+  display: block;
+}
+.hero-container > h1 {
+  position: absolute;
+  /* left: 50px; */
+  bottom: 40px;
+  color: black;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 6px;
+}
+.about-container {
+  width: 85%;
+  margin: 100px auto;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 70px;
+}
+.about-image,
+.about-content {
+  flex: 1;
+}
+.about-image > img {
+  width: 100%;
+  border-radius: 8px;
+}
+.about-content > h2 {
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+.about-content > h4 {
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.about-content > p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.about-content p:last-child {
+  color: gray;
+}
+hr {
+  width: 85%;
+  margin: auto;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.menu-container {
+  width: 85%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+.menu-content,
+.menu-image {
+  flex: 1;
+}
+.menu-image > img {
+  width: 100%;
+  border-radius: 8px;
+}
+.menu-content > h2 {
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: 4px;
+  margin-bottom: 50px;
+}
+.menu-item {
+  margin-bottom: 40px;
+}
+.menu-item > h3 {
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.menu-item > p {
+  color: gray;
+}
+
+.contact-container {
+  width: 85%;
+  margin: 100px auto;
+}
+
+.contact-container > h2 {
+  font-size: 38px;
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+}
+.contact-container > h4 {
+  color: #4d7b9f;
+  margin: 30px 0;
+}
+
+.form-container {
+  margin-top: 40px;
+}
+.form-container > input {
+  width: 100%;
+  padding: 18px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+}
+.form-container > input:focus {
+  outline: none;
+  border-bottom: 2px solid black;
+}
+.form-container > button {
+  padding: 14px 28px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form-container button:hover {
+  background-color: #ccc;
+}
+
+.footer-container {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 40px;
+  margin-top: 80px;
+}
